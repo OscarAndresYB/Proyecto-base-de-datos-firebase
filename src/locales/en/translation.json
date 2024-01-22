@@ -1,0 +1,100 @@
+{
+  "login": {
+    "label": {
+      "signIn": "Inicia Sesión",
+      "rememberMe": "Recordar contraseña",
+      "forgotPass": "Olvide mi contraseña",
+      "registerNew": "Registrarse"
+    },
+    "button": {
+      "signIn": {
+        "label": "Ingresar",
+        "social": "Sign in using {{what}}"
+      },
+      "signUp": {
+        "label": "Sign Up",
+        "social": "Sign up using {{what}}"
+      },
+      "signOut": "Sign Out"
+    }
+  },
+  "register": {
+    "alreadyHave": "Olvide mi contraseña",
+    "registerNew": "Crea tu cuenta",
+    "label": "Registrarse"
+  },
+  "recover": {
+    "forgotYourPassword": "¿Olvidastes tu contraseña?, Recupera aqui tu contraseña.",
+    "oneStepAway": "Estás a sólo un paso de tu nueva contraseña, recupera tu contraseña ahora.",
+    "changePassword": "Cambiar contraseña",
+    "requestNewPassword": "Requiere nueva contraseña"
+  },
+  "main": {
+    "label": {
+      "moreInfo": "Mas información",
+      "follow": "Seguir",
+      "aboutMe": "Acerca de mi",
+      "education": "Educasion",
+      "location": "Direccion",
+      "skills": "Skills",
+      "notes": "Notas",
+      "activity": "Actividad",
+      "timeline": "Timeline",
+      "settings": "Configuracion"
+    }
+  },
+  "header": {
+    "label": {
+      "home": "Home",
+      "contact": "Contacto"
+    },
+    "language": {
+      "turkish": "Turquez",
+      "english": "Ingles",
+      "german": "Aleman",
+      "french": "Frances",
+      "spanish": "Español"
+    },
+    "messages": {
+      "ago": "{{quantity}} {{unit}} Ago",
+      "seeAll": "Ver todos los mensajes"
+    },
+    "notifications": {
+      "count": "{{quantity}} Notifications",
+      "newMessagesCount": "{{quantity}} new messages",
+      "friendRequestsCount": "{{quantity}} friend requests",
+      "reportsCount": "{{quantity}} new reports",
+      "seeAll": "Ver todas las notificasiones"
+    },
+    "user": {
+      "profile": "Perfil",
+      "followers": "Seguidores",
+      "sales": "Ventas",
+      "friends": "Amigos"
+    }
+  },
+  "menusidebar": {
+    "label": {
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "empresas": "Empresas",
+      "usuarios": "Usuarios",
+      "blank": "Blank",
+      "mainMenu": "Main Menu",
+      "subMenu": "Sub Menu"
+    }
+  },
+  "footer": {
+    "version": "Versión",
+    "copyright": "Reservados todos los derechos."
+  },
+  "views": {
+    "user": {
+      "profile": "Perfil del usuario",
+      "following": "Seguidores"
+    }
+  },
+  "measurement": {
+    "quantityUnit": "{{quantity}} {{unit}}"
+  }
+}

@@ -1,0 +1,41 @@
+-----Agregar una opcion mas en el sidebar
+
+1. agregar una carpeta en la carpeta pages
+2. crear un archivo tsx en la carpeta creada con la inicial Mayuscula ejem: Orders.tsx
+3. agregar un Route en el archivo App.tsx importando desde /pages
+
+4.agregar en el archivo src/locales/en/translation.json
+
+ejemp:
+"menusidebar": {
+    "label": {
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "products": "Productos",
+      "orders": "Orders",   <----NUEVO
+      "blank": "Blank",
+      "mainMenu": "Main Menu",
+      "subMenu": "Sub Menu"
+    }
+  },
+
+agregar en el archivo MenuSidebar.tsx
+	ejemplo:
+	{
+    name: i18n.t('menusidebar.label.orders'),
+    icon: 'fas fa-wrench nav-icon',
+    path: '/orders'
+	},
+
+ICONOS
+https://fontawesome.com/v4/icons/
+
+<i class="fa fa-users" aria-hidden="true"></i>
+<i class="fa fa-user" aria-hidden="true"></i>
+<i class="fa fa-line-chart" aria-hidden="true"></i>
+<i class="fa fa-pie-chart" aria-hidden="true"></i>
+<i class="fa fa-id-card-o" aria-hidden="true"></i>
+
+<i class="fa-solid fa-pen-to-square"></i>  editar
+<i class="fa-solid fa-trash"></i> Borrar
+
